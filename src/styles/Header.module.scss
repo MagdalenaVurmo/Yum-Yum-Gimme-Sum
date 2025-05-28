@@ -1,0 +1,41 @@
+
+.header {
+width: 100rem;
+height: 5rem;
+padding: 10px 20px;
+display: flex;
+justify-content: space-between;
+position: relative;
+z-index: 10;
+}
+
+.headerIcon {
+height: 10rem;
+width: 10rem;
+left: 10rem;
+}
+
+.Linkcart {
+display: inline-block;
+position: relative;
+}
+
+.cartIcon {
+background-color: #f7f7f7;
+height: 50px;
+width: 80px;
+}
+
+.cartCount {
+  width: 20px;
+  height: 20px;  
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(253, 245, 245);
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+}

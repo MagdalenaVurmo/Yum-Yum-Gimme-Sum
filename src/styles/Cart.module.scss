@@ -1,0 +1,94 @@
+body { // Inget här stämmer, gå in på Cart och gör om lite namn
+    background-color: £8ED8BF;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cartContainer{
+    background-image: url('img/mmm 1.png');
+}
+
+.MenuStuff {
+
+    &:hover {
+        background-color: #d3d3d3;;
+    }
+}
+
+.TopRow {
+    width: 100%;
+    display: flex;
+    font-size: 22px;
+    justify-content: space-between;
+   
+}
+
+.NameItem { 
+color: white;
+font-size: 22px;
+font-weight: bold;
+}
+
+.PriceItem { 
+    color: white;
+    font-weight: bold;
+}
+
+.DescriptionITEM {
+    color: white;
+    margin-top: 5px; 
+}
+
+.TitelMenu {
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 97.2%;
+}
+
+.MenuTitle {
+    margin: 0;
+    font-size: 34px;
+    color: white;
+    text-align: center;
+}
+
+.MenuStuff:not(.TitleMenu):hover {
+    background-color: #dddcdc;
+}
+
+.DipStuff {
+margin: 5px 0;
+cursor: pointer;
+padding: 5px;
+border-radius: 5px;
+background-color: rgb(184, 178, 178);
+
+&:hover {
+    background-color: #c5c1c1;
+}
+}
+
+.DipsContainer {
+    cursor: default;
+    background-color: rgb(71, 70, 70);
+    width: 97%;
+    padding: 15px;
+
+    &:hover {
+        background-color: rgb(71, 71, 71);
+    }
+}
+

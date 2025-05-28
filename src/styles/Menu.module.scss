@@ -1,0 +1,112 @@
+body {
+overflow: hidden;
+width: 100%;
+height: 100%;
+background-color: #8ad3bb;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ContainerMenu{
+width: 100vw;
+height: 100vh;
+padding: 20px;
+top: 0;
+position: absolute;
+background-image: url('../img/mmm 1.png');
+left: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-position: center;
+justify-content: flex-start;
+overflow-y: auto;
+}
+
+.TopRow {
+  width: 100%;
+  display: flex;
+  font-size: 22px;
+  justify-content: space-between;
+  
+}
+
+.MenuStuff {
+  width: 60vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(78, 78, 78);
+  transition: background-color 0.3s;
+  border-bottom: 1px solid rgb(154, 150, 150);
+  cursor: pointer;
+
+  &:hover {
+    background-color: #d3d3d3;
+  }
+}
+
+.NameItem {
+   font-size: 22px; 
+   color: white;
+  font-weight: bold;
+}
+
+.DescriptionITEM {
+color: rgb(252, 246, 246);
+margin-top: 5px;
+}
+
+.PriceItem {
+color: rgb(252, 246, 246);
+font-weight: bold;
+}
+
+.MenyTitle {
+  margin: 0;
+  text-align: center;
+  font-size: 34px;
+  color: white;
+}
+
+.TitleMenu {
+  width: 97.2%;
+  background-color: rgb(78, 77, 77);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DipStuff {
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: rgb(192, 187, 187);
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(160, 158, 158);
+  }
+}
+
+.DipsContainer {
+   width: 97%; 
+ padding: 15px;
+  background-color: rgb(73, 72, 72);
+  cursor: default;
+
+  &:hover {
+    background-color: rgb(77, 76, 76);
+  }
+}
+
+.MenuStuff:not(MenuStuff) :hover {
+  background-color: #d3d3d3;
+}
